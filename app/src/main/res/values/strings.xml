@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Basketball Match</string>
+    <string name="team_a">Team A</string>
+    <string name="team_a_points">0</string>
+    <string name="a_2_points_text">+2 Points</string>
+    <string name="a_free_throw">Free throw</string>
+    <string name="a_3_points">+3 Points</string>
+    <string name="team_b">Team B</string>
+    <string name="b_0">0</string>
+    <string name="b_3_points">+3 Points</string>
+    <string name="b_2_points">+2 Points</string>
+    <string name="b_free_throw">Free throw</string>
+    <string name="reset">Reset</string>
+</resources>
