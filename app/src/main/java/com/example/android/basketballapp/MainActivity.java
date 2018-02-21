@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    private int scoreTeamA = 0;
+    private int scoreTeamB = 0;
     int scoreTeamASave;
     int scoreTeamBSave;
 
@@ -71,17 +71,17 @@ public class MainActivity extends AppCompatActivity {
     // Increase the score for B by 1.
     public void addOneForTeamB(View v) {
         scoreTeamB += 1;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
     // Increase the score for B by 2.
     public void addTwoForTeamB(View v) {
         scoreTeamB += 2;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
     // Increase the score for B by 3.
     public void addThreeForTeamB(View v) {
         scoreTeamB += 3;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
     public void resetScore(View v) {
         scoreTeamA = 0;
